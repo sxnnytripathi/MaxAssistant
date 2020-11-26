@@ -32,7 +32,7 @@ enigne.setProperty('voice', voices[0].id)  # Remove 0 and write 1 to get Female 
 '''
 b_music = 'maxbgm'                                                                 
 pygame.mixer.init()
-pygame.mixer.music.load("C:\\Users\\ykn01\\Desktop\\Max\\maxbgm.mp3") #Enter your Audio Path Here
+pygame.mixer.music.load("C:\\Music\\Path\\Here\\maxbgm.mp3") # Enter your Audio Path Here
 pygame.mixer.music.set_volume(0.05)
 pygame.mixer.music.play(-1)
 '''
@@ -317,7 +317,7 @@ class Widget:
         root.config(background='White')
         root.geometry('1080x700')
         root.resizable(0, 0)  # Remove this to make the App Window Resizeable
-        img = ImageTk.PhotoImage(Image.open(r"C:\\Users\\ykn01\\PycharmProjects\\AI-MAX\\maxbody.jpg")) #Enter your Image Path Here
+        img = ImageTk.PhotoImage(Image.open(r"C:\\Image\\Path\\Here\\maxbody.jpg")) # Enter your Image Path Here
         panel = Label(root, image=img)
         panel.pack(side="bottom", fill="both", expand="no")
         Button(root, text='Start Listening!', font=('Black ops one', 10, 'bold'), bg='deepSkyBlue', fg='white',
